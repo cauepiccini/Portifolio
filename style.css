@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+#LadoD{
+
+    /*deixa o div corretamente na magina
+    position: absolute;*/
+
+    /*deixa um div do lado do outro*/
+    display: inline-block;
+
+    width: 410px;
+
+}
+#LadoE{  
+
+    position: absolute;
+
+    /*deixa um div do lado do outro*/
+    display: inline-block;
+}
+/*-----------------------------------------------------------------------------------------------*/
+#Profile{
+    background: #302F3D;
+
+    width: 348px;
+    height: 292px;
+    margin: 40px 30px 30px 40px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 05%;
+
+}
+#Profile img{
+    padding: 32px 110px 15px 110px;
+}
+#Profile h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    padding: 15px 76px 5px 76px;
+}
+#Profile p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+    font-weight: 300;
+
+    padding: 5px 110px 49px 110px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Tech{
+    background: #302F3D;
+    width: 348px;
+    height: 208px;
+
+    margin: 30px 0 30px 40px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 05%;
+}
+#Tech h2{
+    font-size: 20px;
+    font-weight: 700;
+
+    padding: 30px 207px 10px 20px;
+}
+#Tech button{
+    width: 86px;
+    height: 24px;
+
+    border: 0;
+    border-radius: 30px;
+    background: #CB92B1;
+
+    margin: 5px 5px 5px 15px;
+}
+#Tech a{
+    color: #000000;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Exp{ 
+    background: #302F3D;
+    width: 348px;
+    height: 349px;
+    
+    margin: 30px 0 30px 40px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 05%;
+}
+#Exp h2{
+    font-size: 23px;
+    font-weight: 700;
+
+    padding: 30px 187px 0 20px;
+}
+#Exp ul{
+    padding: 0 118px 20px 65px;
+}
+#Exp li{
+    padding: 8px;
+}
+#Exp h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+#Exp p{
+    font-size: 12px;
+    font-weight: 300;
+}
+#Exp a{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Edu{ 
+    background: #302F3D;
+    width: 348px;
+    height: 349px;
+    
+    margin: 15px 0 15px 40px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 05%;
+}
+#Edu h2{
+    font-size: 23px;
+    font-weight: 700;
+
+    padding: 30px 187px 0 20px;
+}
+#Edu ul{
+    padding: 0 118px 20px 65px;
+}
+#Edu li{
+    padding: 8px;
+}
+#Edu h3{
+    font-size: 14px;
+    font-weight: 700;
+}
+#Edu p{
+    font-size: 12px;
+    font-weight: 300;
+}
+#Edu a{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#MyPro{
+    background: #302F3D;
+    width: 862px;
+    height: 76px;
+    margin: 40px 40px 30px 20px;
+
+    position: absolute;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;    
+}
+#MyPro h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 630px 25px 30px;
+
+    display: -webkit-inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#MyPro a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #837E9F;
+
+    display: -webkit-inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Pro1{
+    background: #302F3D;
+    width: 401px;
+    height: 186px;
+    margin: 145px 30px 15px 20px;
+
+    
+    /*deixa um div do lado do outro*/
+    display: inline-block;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;    
+
+    padding: 26px 0 30px 30px;
+}
+#Pro1 svg{
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#Pro1 h3{
+    font-size: 16px;
+    font-weight: 700;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 0 0 0 15px;
+}
+#Pro1 h4{
+    font-size: 14px;
+    font-weight: 400;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 0 15px 0 8px;
+}
+#Pro1 p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    padding: 20px 0 40px 0;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Pro2{
+    background: #302F3D;
+    width: 401px;
+    height: 186px;
+    margin: 145px 20px 15px 30px;
+
+    
+    /*deixa um div do lado do outro*/
+    display: inline-block;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;    
+
+    padding: 26px 0 30px 30px;
+}
+#Pro2 svg{
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#Pro2 h3{
+    font-size: 16px;
+    font-weight: 700;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 0 0 0 15px;
+}
+#Pro2 h4{
+    font-size: 14px;
+    font-weight: 400;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 0 15px 0 8px;
+}
+#Pro2 p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    padding: 20px 0 40px 0;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Recent{
+    background: #302F3D;
+    width: 862px;
+    height: 76px;
+    margin: 15px 40px 30px 20px;
+
+    position: absolute;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;    
+}
+#Recent h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 630px 25px 30px;
+
+    display: -webkit-inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+#Post{
+    background: #302F3D;
+    width: 862px;
+    height: 201px;
+    margin: 126px 40px 0px 20px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+}
+#Image{
+    margin: 31px 10px 42px 30px;
+    display: inline-block;
+}
+#Texto{
+    margin: 30px 162px 42px 10px;
+    display: inline-block;
+    position: absolute;
+}
+#Texto h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+#Texto p{
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 0 0 28px 0;
+}
+#Texto h3{
+    font-size: 16px;
+    font-weight: 400;    
+}
+#Texto h4{
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 11px 0 42px 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+#Links{
+    background: #302F3D;
+
+    width: 348px;
+    height: 348px;
+    margin: 15px 0 15px 40px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 05%;
+}
+#Links *{
+    display: block;
+}
+#Links li{
+    padding: 15px 5px 10px 40px;
+}
+#Links svg{
+    display: inline-block;
+    vertical-align: middle;
+    
+    width: 24px;
+    height: 24px;
+}
+#Links a{
+    display: inline-block;
+    vertical-align: middle;
+
+    text-decoration: none;
+    color: #837E9F;
+
+    font-size: 13px;
+    font-weight: 400;
+
+}
